@@ -30,14 +30,15 @@
 }
 
 #navbar__logo {
-  background-color: #ff8177;
-  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+  background-color: #00ff1f;
+  background-image: linear-gradient(to top, #80ff00 0%, #00ff1f 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
   display: flex;
+  font-family: monospace;
   align-items: center;
   cursor: pointer;
   text-decoration: none;
@@ -92,7 +93,7 @@
 }
 
 .navbar__links:hover {
-  color: #9518fc;
+  color: #00fa00;
   transition: all 0.3s ease;
 }
 
@@ -212,19 +213,20 @@
 .hero__heading {
   font-size: 100px;
   margin-bottom: 24px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #fff;
 }
 
 .hero__heading span {
-  background: #ee0979;
+  background: #17fd02;
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to right,
-      #ff6a00,
-      #ee0979);
+      #80ff00,
+      #00ff1f);
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right,
-      #ff6a00,
-      #ee0979);
+      #80ff00,
+      #00ff1f);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: 100%;
   -webkit-background-clip: text;
@@ -238,12 +240,12 @@
   background: #da22ff;
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to right,
-      #ff6a00,
-      #ff8177);
+      #fffb00,
+      #f7f302);
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right,
-      #ff6a00,
-      #ff8177);
+      #00ffea,
+      #f7f302);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: 100%;
   -webkit-background-clip: text;
@@ -253,7 +255,7 @@
 }
 
 .highlight {
-  border-bottom: 4px solid rgb(132, 0, 255);
+  border-bottom: 4px solid rgb(230, 255, 1);
 }
 
 @media screen and (max-width: 768px) {
@@ -304,16 +306,17 @@
 }
 
 .main__content h2 {
-  font-size: 3rem;
+  font-size: 2rem;
   background: #ff8177;
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to right,
-      #9114ff,
-      #da22ff);
+      #8bff1f,
+      #80ff00);
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right,
-      #8f0eff,
-      #da22ff);
+      #8bff1f,
+      #80ff00);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: 100%;
   -webkit-background-clip: text;
@@ -330,9 +333,9 @@
 
 .main__btn {
   font-size: 1.8rem;
-  background: #833ab4;
-  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  background: #f8e800;
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #f8e800);
+  background: linear-gradient(to right, #17fd02, #00ff1f, #80ff00);
   padding: 20px 60px;
   border: none;
   border-radius: 4px;
@@ -346,7 +349,8 @@
 .main__btn a {
   position: relative;
   z-index: 2;
-  color: #fff;
+  font-family: monospace;
+  color: rgb(7, 7, 7);
   text-decoration: none;
 }
 
@@ -357,7 +361,7 @@
   left: 0;
   width: 0;
   height: 100%;
-  background: #ff1ead;
+  background: #00e8f8;
   transition: all 0.35s;
   border-radius: 4px;
 }
@@ -383,7 +387,7 @@
   flex-direction: column;
   justify-content: center;
   color: #fff;
-  background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+  background-image: linear-gradient(to right, #b3ff00 0%, #18d100 100%);
 }
 
 .fa-layer-group,
@@ -393,8 +397,8 @@
 
 #card-2 {
   background: #ff512f;
-  background: -webkit-linear-gradient(to right, #dd2476, #ff512f);
-  background: linear-gradient(to right, #dd2476, #ff512f);
+  background: -webkit-linear-gradient(to right, #b3ff00, #18d100);
+  background: linear-gradient(to right, #b3ff00, #18d100);
 }
 
 /* Mobile Responsive */
@@ -482,12 +486,13 @@
 
 .services h1 {
   background-color: #ff8177;
-  background-image: linear-gradient(to right, #ff0844 0%, #f7673c 100%);
+  background-image: linear-gradient(to right, #3efc04 0%, #04ff2d 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
+  font-family: monospace;
   margin-bottom: 5rem;
   font-size: 2.5rem;
 }
@@ -506,13 +511,13 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: #fff;
-  background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+  color: rgb(0, 0, 0);
+  background-image: linear-gradient(to right, #25de00 0%, #00ff73 100%);
   transition: 0.3s ease-in;
 }
 
 .services__card:nth-child(2) {
-  background: #1fa2ff;
+  background: #8bff1f;
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to right,
       #a6ffcb,
@@ -520,18 +525,18 @@
       #1fa2ff);
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right,
-      #a6ffcb,
-      #12d8fa,
-      #1fa2ff);
+      #8bff1f,
+      #3cf32c,
+      #00ff73);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .services__card:nth-child(3) {
   background-image: linear-gradient(-225deg,
-      #231557 0%,
-      #44107a 29%,
-      #ff1361 67%,
-      #fff800 100%);
+      #00ff73 0%,
+      #3cf32c 29%,
+      #8bff1f 67%,
+      #00e043 100%);
 }
 
 .services__card h2 {
@@ -585,7 +590,7 @@
 /* Footer CSS */
 .footer__container {
   background-color: #131313;
-  padding: 5rem 0;
+  padding: 5rem 2;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -675,7 +680,7 @@ a {
 }
 
 a:hover {
-  color: #9518fc;
+  color: #01f335;
   transition: all 0.3s ease;
 }
 
