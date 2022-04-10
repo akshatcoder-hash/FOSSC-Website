@@ -8,7 +8,7 @@
 }
 
 body{
-  background: #019267;
+  background: #131313;
 }
 
 .wrapper{
@@ -17,9 +17,10 @@ body{
 }
 
 .wrapper h1{
-  font-family: 'Yatra One', cursive;
+  font-family: monospace;
   font-size: 48px;
-  color: #fff;
+  background-color:#131313;
+  color: #1efd00;
   margin-bottom: 25px;
 }
 
@@ -92,7 +93,7 @@ body{
 }
 
 .our_team .team_member .member_img .social_media .fab{
-  color: #8c7ae6;
+  color: #1efd00;
   font-size: 20px;
 }
 
