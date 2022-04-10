@@ -211,6 +211,7 @@
 }
 
 .hero__heading {
+  margin-top: -70px;
   font-size: 100px;
   margin-bottom: 24px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -510,7 +511,7 @@
   border-radius: 4px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: safe;
   color: rgb(0, 0, 0);
   background-image: linear-gradient(to right, #25de00 0%, #00ff73 100%);
   transition: 0.3s ease-in;
@@ -540,6 +541,8 @@
 }
 
 .services__card h2 {
+  margin-top: 15px;
+  margin-bottom: -5px;
   text-align: center;
 }
 
@@ -552,7 +555,7 @@
 .services__btn {
   display: flex;
   justify-content: center;
-  margin-top: 16px;
+  margin-top: 10px;
 }
 
 .services__card button {
